@@ -1,5 +1,5 @@
 # Music-GUI-Volume-Saver
-Small program to remember and set the volume for the KH2 Music_GUI tool by Xaddgx.
+Very basic program to remember and set the volume for the KH2 Music_GUI tool by Xaddgx.
 
 ## Usage
 Put music_gui_volume.exe in the Music Tool folder, run music_gui_volume.exe then Music_GUI.exe. That's it.
