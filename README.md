@@ -2,7 +2,7 @@
 Very basic program to remember and set the volume for the KH2 Music_GUI tool by Xaddgx.
 
 ## Usage
-Put music_gui_volume.exe in the Music Tool folder, run music_gui_volume.exe then Music_GUI.exe. That's it.
+Put music_gui_volume.exe in the Music Tool folder, run music_gui_volume.exe then Music_GUI.exe. That's it.\n
 I have provided a .bat file that will open both exes for convenience.
 
 ## How it works
