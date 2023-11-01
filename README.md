@@ -2,7 +2,7 @@
 Very basic program to remember and set the volume for the KH2 Music_GUI tool by Xaddgx, for the Nobody May Cry mod.
 
 ## Usage
-Put music_gui_volume.exe in the Music Tool folder, run music_gui_volume.exe then Music_GUI.exe. That's it.<br>
+Put music_gui_volume.exe in the Music Tool folder, run music_gui_volume.exe and Music_GUI.exe together. That's it.<br>
 I have provided a .bat file that will open both exes for convenience.
 
 ## How it works
