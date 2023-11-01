@@ -37,8 +37,8 @@ def main():
         if new_volume != volume:
             volume = new_volume
             print("Volume: " + str(volume))
-        with open("volume.ini", "w") as f:
-                    f.write(str(volume))
+            with open("volume.ini", "w") as f:
+                        f.write(str(volume))
 
 if __name__ == '__main__':
     main()
