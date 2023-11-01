@@ -30,7 +30,7 @@ jobs:
 
       - name: "Install dependencies"
         run: |
-          python -m pip install pyinstaller
+          python -m pip install pyinstaller pymem
 
       - name: "Build application"
         run: |
