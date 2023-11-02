@@ -1,11 +1,14 @@
 import pymem
 import time
+import subprocess
 
 def check_process():
     while True:
         try:
             global pm
             global base
+            global p
+            p = subprocess.Popen("./Music_GUI.exe")
             pm = pymem.Pymem("Music_GUI.exe")
             base = pm.base_address
             break
@@ -13,6 +16,17 @@ def check_process():
             print("Waiting for process...")
             time.sleep(1)
             continue
+
+# closing the console window hangs child process for a few seconds, attempt to kill it immediately
+# TODO: actually kill it
+# def terminate_process():
+#     p.terminate() # Sends CTRL_BREAK_EVENT on Windows
+#     if p.poll() is None: # Process hasn't exited
+#         p.kill() # Sends CTRL_C_EVENT as last resort
+#     p.wait()
+
+# import atexit
+# atexit.register(terminate_process)
 
 def main():
     check_process()
