@@ -12,4 +12,3 @@ Each time you open music_gui_volume.exe it will automatically open and set Music
 ## Known Issues
 - Volume slider does not visually reflect the stored volume level when opening the Music_GUI tool.<br>
 - Closing the console window leaves Music_GUI.exe hanging for a couple seconds before closing. Type Ctrl+C in the console window to close everything immediately.
-- Tested on Rev 4 of NMC mod. Will probably only work with that. I will try to keep it updated.
