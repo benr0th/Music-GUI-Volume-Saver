@@ -3,12 +3,15 @@ import time
 import subprocess
 
 def check_process():
+    process_opened = False
     while True:
         try:
             global pm
             global base
             global p
-            p = subprocess.Popen("./Music_GUI.exe")
+            if not process_opened:
+                p = subprocess.Popen("./Music_GUI.exe")
+                process_opened = True
             pm = pymem.Pymem("Music_GUI.exe")
             base = pm.base_address
             break
