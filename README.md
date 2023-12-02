@@ -1,3 +1,5 @@
+**Obsoleted by the [NMC Launcher](https://github.com/benr0th/NMC_Launcher) I made, which includes volume saving. Please use that instead.**
+
 # Music-GUI-Volume-Saver
 Very basic program to remember and set the volume for the KH2 Music_GUI tool by Xaddgx, for the Nobody May Cry mod.
 
